@@ -16,6 +16,8 @@ const meanDock = {
   help: () => "try greet() or ask()",
   greet: () => "🦆 quack quack 🦆 I'm busy, leave me alone 🦆",
   ask: (question) => {
+    if (!question)
+      return "quackkkk greatttt! now you're asking me questions without telling me the question 🦆";
     if (question.length < 15) {
       return "🦆 quack quack 🦆 what did you say ? I was busy eating ";
     } else if (question.length > 80) {

@@ -1,6 +1,19 @@
 ## Mean Duck
 
-### Demo of how to publish your own mini library to NPM Registry
+## HOW TO USE ( proceed with caution - the duck ain't friendly)
+
+1. `npm i mean-duck`
+2.
+
+```
+const duck = require("mean-duck");
+console.log(duck.help());
+console.log(duck.greet());
+console.log(duck.ask("question here"));
+
+```
+
+## Demo of how to publish your own mini library to NPM Registry
 
 ### Steps:
 
@@ -29,7 +42,8 @@ console.log(myStuff.somefunction())
 1. `npm login` ( you will need to create an account first)
 2. `npm publish`
 
-----
+---
 
 ### Issue and solution
+
 https://stackoverflow.com/questions/59280276/npm-package-readme-display-issue/61161811#61161811
