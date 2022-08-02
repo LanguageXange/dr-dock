@@ -1,6 +1,6 @@
 {
   "name": "mean-duck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a mean duck that may or may not motivate you to become a better developer",
   "main": "index.js",
   "scripts": {
