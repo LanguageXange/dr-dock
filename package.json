@@ -1,0 +1,24 @@
+{
+  "name": "mean-duck",
+  "version": "1.0.0",
+  "description": "a mean duck that may or may not motivate you to become a better developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LanguageXange/dr-dock.git"
+  },
+  "keywords": [
+    "javascript",
+    "duck",
+    "debug"
+  ],
+  "author": "cindy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LanguageXange/dr-dock/issues"
+  },
+  "homepage": "https://github.com/LanguageXange/dr-dock#readme"
+}
