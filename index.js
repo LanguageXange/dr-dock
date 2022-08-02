@@ -13,9 +13,7 @@ const res = [
 const randomIndex = Math.floor(Math.random() * res.length);
 
 const meanDock = {
-  help: () => {
-    "try greet() or ask()";
-  },
+  help: () => "try greet() or ask()",
   greet: () => "🦆 quack quack 🦆 I'm busy, leave me alone 🦆",
   ask: (question) => {
     if (question.length < 15) {
